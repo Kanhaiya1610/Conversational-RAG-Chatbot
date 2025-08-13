@@ -67,7 +67,7 @@ You will paste this key into the chatbot's sidebar when you run the application.
 ```
 streamlit run app.py
 ```
-## Your chatbot will now be running locally in your web browser!
+## Your chatbot will now be running locally in your web browser! Use my Gemini API key to test the App. ( AIzaSyC0Y5PsYXVqK4liAgMlI82BQ6-RzkvCcjQ )
 
 # Data Source
 - The chatbot uses a CSV file named mental_health_faq.csv located in the data/ directory. This file contains the questions and answers that form the chatbot's knowledge base. You can easily modify or extend this file to customize the chatbot's knowledge.
