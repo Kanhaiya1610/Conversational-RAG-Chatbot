@@ -1,10 +1,10 @@
-## 🧠 Mental Health Support Chatbot
+# 🧠 Mental Health Support Chatbot
 - This project is a mental health support chatbot built with Streamlit, LangChain, and Google's Gemini 1.5 Flash model. It uses a Retrieval-Augmented Generation (RAG) architecture to provide helpful and informative responses to user queries related to mental health.
 
-# Overview
+## Overview
 - The chatbot is designed to answer questions about stress, anxiety, sleep, and other mental health topics. It uses a vector database to store and retrieve relevant information from a knowledge base of frequently asked questions (FAQs). The Gemini 1.5 Flash model is then used to generate a conversational and contextually appropriate response based on the retrieved information.
 
-# Technology Stack
+## Technology Stack
 - Framework: Streamlit
 
 - LLM Orchestration: LangChain
@@ -15,7 +15,7 @@
 
 - Embeddings: Hugging Face Sentence Transformers
 
-# Setup and Run Locally
+## Setup and Run Locally
 - Follow these steps to set up and run the chatbot on your local machine.
 
 - 1. Clone the Repository
@@ -62,12 +62,12 @@ Obtain your key from Google AI Studio.
 
 You will paste this key into the chatbot's sidebar when you run the application.
 
-# 6. Run the App
+## 6. Run the App
 - Launch the Streamlit application by running the following command from your project's root directory:
 ```
 streamlit run app.py
 ```
-# Your chatbot will now be running locally in your web browser!
+## Your chatbot will now be running locally in your web browser!
 
 # Data Source
 - The chatbot uses a CSV file named mental_health_faq.csv located in the data/ directory. This file contains the questions and answers that form the chatbot's knowledge base. You can easily modify or extend this file to customize the chatbot's knowledge.
